@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BotPenguin Chatbot Integration</title>
+
+  <style>
+    /* General CSS Reset */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background-color: #121212; /* Dark mode */
+      color: #ffffff;
+      font-family: 'Arial', sans-serif;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .container {
+      text-align: center;
+      padding: 20px;
+      border: 2px solid #4CAF50;
+      border-radius: 15px;
+      box-shadow: 0 0 15px rgba(76, 175, 80, 0.7);
+      background-color: #1E1E1E;
+      width: 80%;
+      max-width: 500px;
+    }
+
+    h1 {
+      margin-bottom: 15px;
+      font-size: 2em;
+    }
+
+    p {
+      margin-bottom: 20px;
+      font-size: 1.2em;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <h1>Welcome to Our Chatbot</h1>
+    <p>Feel free to ask us anything. We're here to help!</p>
+  </div>
+
+  <!-- BotPenguin Messenger Widget Script -->
+  <script 
+    id="messenger-widget-b" 
+    src="https://cdn.botpenguin.com/website-bot.js" 
+    bot-id="6710d600dbcedd031e89af3c" 
+    widget-id="6710d59fc57e7003c1bc7d46" 
+    defer>
+  </script>
+
+</body>
+</html>

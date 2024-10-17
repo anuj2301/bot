@@ -3,10 +3,10 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>BotPenguin Chatbot Integration</title>
+  <title>My Custom Website with BotPenguin Chatbot</title>
 
   <style>
-    /* General CSS Reset */
+    /* Basic CSS Reset */
     * {
       margin: 0;
       padding: 0;
@@ -14,51 +14,58 @@
     }
 
     body {
-      background-color: #121212; /* Dark mode */
-      color: #ffffff;
+      background-color: #f0f0f0;
       font-family: 'Arial', sans-serif;
-      height: 100vh;
       display: flex;
       justify-content: center;
       align-items: center;
+      height: 100vh;
+      overflow: hidden;
     }
 
     .container {
       text-align: center;
-      padding: 20px;
-      border: 2px solid #4CAF50;
-      border-radius: 15px;
-      box-shadow: 0 0 15px rgba(76, 175, 80, 0.7);
-      background-color: #1E1E1E;
+      padding: 40px;
+      background-color: #ffffff;
+      box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+      border-radius: 12px;
       width: 80%;
       max-width: 500px;
     }
 
     h1 {
+      font-size: 2.5em;
+      color: #4CAF50;
       margin-bottom: 15px;
-      font-size: 2em;
     }
 
     p {
-      margin-bottom: 20px;
       font-size: 1.2em;
+      color: #333;
+      margin-bottom: 30px;
+    }
+
+    .footer {
+      margin-top: 20px;
+      font-size: 0.9em;
+      color: #777;
     }
   </style>
 </head>
 <body>
 
   <div class="container">
-    <h1>Welcome to Our Chatbot</h1>
-    <p>Feel free to ask us anything. We're here to help!</p>
+    <h1>Welcome to Our Website</h1>
+    <p>Need help? Chat with our BotPenguin assistant!</p>
+    <p class="footer">© 2024 My Custom Website</p>
   </div>
 
-  <!-- BotPenguin Messenger Widget Script -->
+  <!-- BotPenguin Chatbot Integration -->
   <script 
     id="messenger-widget-b" 
     src="https://cdn.botpenguin.com/website-bot.js" 
-    bot-id="6710d600dbcedd031e89af3c" 
-    widget-id="6710d59fc57e7003c1bc7d46" 
     defer>
+    6710d600dbcedd031e89af3c,6710d59fc57e7003c1bc7d46
   </script>
 
 </body>
